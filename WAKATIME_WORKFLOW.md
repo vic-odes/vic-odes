@@ -2,7 +2,7 @@
 
 ## Vue d'ensemble
 
-Ce dépôt utilise un workflow GitHub Actions pour automatiquement mettre à jour les statistiques de codage WakaTime dans le fichier README.md. Le workflow s'exécute automatiquement toutes les 2 heures et peut également être déclenché manuellement.
+Ce dépôt utilise un workflow GitHub Actions pour automatiquement mettre à jour les statistiques de codage WakaTime dans le fichier README.md. Le workflow s'exécute automatiquement chaque jour à minuit UTC et peut également être déclenché manuellement.
 
 ## Configuration du Workflow
 
@@ -16,8 +16,8 @@ name: Waka Readme
 on:
   workflow_dispatch:
   schedule:
-    # Runs every 2 hours
-    - cron: "0 */2 * * *"
+    # Runs every day at midnight UTC
+    - cron: "0 0 * * *"
 
 jobs:
   update-readme:
@@ -36,7 +36,7 @@ jobs:
 Le workflow peut être déclenché de deux façons :
 
 - **`workflow_dispatch`** : Permet un déclenchement manuel depuis l'onglet Actions de GitHub
-- **`schedule` avec cron** : S'exécute automatiquement toutes les 2 heures (`"0 */2 * * *"`)
+- **`schedule` avec cron** : S'exécute automatiquement chaque jour à minuit UTC (`"0 0 * * *"`)
 
 #### 2. **Job : update-readme**
 
@@ -102,7 +102,7 @@ Pour que le workflow fonctionne, vous devez configurer le secret `WAKATIME_API_K
 
 ### Déclenchement Automatique
 
-Le workflow s'exécute automatiquement toutes les 2 heures. Vous n'avez rien à faire, les statistiques seront mises à jour automatiquement.
+Le workflow s'exécute automatiquement chaque jour à minuit UTC. Vous n'avez rien à faire, les statistiques seront mises à jour automatiquement.
 
 ### Déclenchement Manuel
 
