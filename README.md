@@ -173,6 +173,8 @@ Je suis un développeur passionné avec un intérêt particulier pour les techno
 
 ## ⏱️ Coding Stats
 
+> 📖 **[Comment fonctionne ce workflow?](WAKATIME_WORKFLOW.md)** - Documentation complète du workflow WakaTime
+
 <!--START_SECTION:waka-->
 
 ```txt
