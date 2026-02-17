@@ -167,7 +167,7 @@ const victor = {
 
 <div align="center">
   <img width="49%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=vic-odes&layout=compact&theme=radical&langs_count=8&hide_border=true&bg_color=0D1117" alt="Top Languages" />
-  <img width="49%" src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=vic-odes&theme=radical&hide_border=true" alt="Most Commit Language" />
+  <img width="49%" src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=vic-odes&theme=radical&hide_border=true&bg_color=0D1117" alt="Most Commit Language" />
 </div>
 
 ---
