@@ -161,12 +161,11 @@ const victor = {
 <h2 align="center">📊 Statistiques GitHub</h2>
 
 <div align="center">
-  <img width="49%" height="195px" src="https://github-readme-stats.vercel.app/api?username=vic-odes&show_icons=true&theme=radical&count_private=true&hide_border=true&bg_color=0D1117" alt="GitHub Stats" />
   <img width="49%" height="195px" src="https://github-readme-streak-stats.herokuapp.com/?user=vic-odes&theme=radical&hide_border=true&background=0D1117" alt="GitHub Streak" />
 </div>
 
 <div align="center">
-  <img width="49%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=vic-odes&layout=compact&theme=radical&langs_count=8&hide_border=true&bg_color=0D1117" alt="Top Languages" />
+  <img width="49%" src="http://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=vic-odes&theme=apprentice" alt="Top Languages" />
   <img width="49%" src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=vic-odes&theme=radical&hide_border=true&bg_color=0D1117" alt="Most Commit Language" />
 </div>
 
