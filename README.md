@@ -196,8 +196,7 @@ const victor = {
 <!--START_SECTION:waka-->
 
 ```txt
-Docker   1 min           ██████████████████▒░░░░░░   73.36 %
-Other    0 secs          ██████▓░░░░░░░░░░░░░░░░░░   26.64 %
+Docker   1 min           █████████████████████████   100.00 %
 ```
 
 <!--END_SECTION:waka-->
